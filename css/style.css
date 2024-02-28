@@ -13,14 +13,14 @@ ul {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.167;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -44,6 +44,10 @@ a {
   color: #404bbf;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .address-item-link {
   font-weight: 400;
   font-size: 16px;
@@ -59,26 +63,24 @@ a {
 
 .box {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .box-title {
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
 .box-btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
@@ -108,22 +110,19 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-item {
   background-color: #fff;
-  width: 264px;
-  height: 380px;
 }
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 .footer-logo {
   color: #f4f4fd;
 }
 
 .footer-text {
-    color: #f4f4fd;
+  color: #f4f4fd;
 }
